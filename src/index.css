@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+*{
+  font-family: Saira, sans-serif;
+}
+@theme{
+  --color-dark-100:#000000;
+  --color-dark-200:#000000;
+  --color-dark-300:#3f37c9;
+   --color-dark-400:#4895ef;
+    --color-purple:#4361ee;
+     --color-blue:#4895ef;
+
+} 
+
+.typewriter{
+  overflow:hidden;
+  border-right:0.15em solid-purple;
+  white-space:nowrap;
+  width:0;
+   animation:typing 3s steps(20, end)forwards, blink-caret 0.75s step-end 4;/* blink 4 times on home page full stack developer line */
+}
+
+@keyframes typing{
+  from {width:0;}
+  to {width:15ch;}
+}
+
+@keyframes blink-caret{
+  from, to{border-color:transparent;}
+  50% {border-color:purple;}
+}
