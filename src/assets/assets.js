@@ -113,8 +113,8 @@ export const projects = [
     image: projectImg4,
     tech: ["Next.js","React","JS", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "portfolio-shristy-w58345y2s-shristy1.vercel.app",
+    code: "https://github.com/Shristy443/Portfolio_Shristy.git",
   },
   {
     title: "Sales Analytics Dashboard",
