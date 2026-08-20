@@ -92,7 +92,7 @@ export const projects = [
     title: "Zerodha Clone",
     description: "A responsive stock trading platform inspired by Zerodha, featuring user authentication, portfolio management, market dashboards, and a modern, intuitive user interface",
     image: projectImg2,
-    tech: ["React",""],
+    tech: ["React","Express.js", "Bootstrap", "React-Router", "Vercel", "JavaScript"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "https://zerodha-clone-project-bod3y1onx-shristy1.vercel.app",
     code: "https://github.com/Shristy443/Zerodha_Clone.git",
