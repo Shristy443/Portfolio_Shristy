@@ -94,8 +94,8 @@ export const projects = [
     image: projectImg2,
     tech: ["React",""],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://zerodha-clone-project-bod3y1onx-shristy1.vercel.app",
+    code: "https://github.com/Shristy443/Zerodha_Clone.git",
   },
   {
     title: "Spotify Clone",
